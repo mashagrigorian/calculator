@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #93d4fc;
+}
+.box {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: yellow;
+  width: 700px;
+  height: 300px;
+  margin: 50px auto;
+}
+.box #primary-number {
+  border: solid 4px green;
+}
+.box #secondary-number {
+  border: solid 4px blue;
+}
+.box #primary-number,
+.box #secondary-number {
+  display: flex;
+  font-size: 40px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  width: 125px;
+  height: 125px;
+  box-sizing: border-box;
+}
+.box #addition,
+.box #equal-sign {
+  font-weight: bold;
+  font-size: 40px;
+  padding: 5px;
+}
+.box input {
+  border: solid 2px cyan;
+  width: 150px;
+  height: 30px;
+  padding-left: 25px;
+}
+.box button {
+  cursor: pointer;
+  width: 100px;
+  height: 35px;
+  margin: 5px;
+  background: red;
+  color: white;
+  border: 1px solid lightgrey;
+}
